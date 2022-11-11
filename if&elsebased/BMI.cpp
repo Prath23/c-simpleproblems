@@ -15,8 +15,8 @@ int main(){
     if(bmi<18.5){
     	cout<<"you are under weight";
 	}
-	else if(bmi>=18.5 && bmi<=24.9){
-		cout<<"healty but dont slack off";
+    	else if(bmi>=18.5 && bmi<=24.9){
+		cout<<"healty but dont slack off";           //this can be also simplified up to you and mind the indentation
 	}
 	else{
 		cout<<"bro u overweight get ur act together"<<endl;
