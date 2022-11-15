@@ -14,7 +14,7 @@ int main(){
 	cout<<"Enter the width(whole number): ";
 	cin>>w;
 	for(int i=1;i<=h;i++){
-		for(int a=1;a<=w;a++){
+		for(int a=1;a<=w;a++){       // can this be done using while loop? if so then why is for used rather than while loop?
 			cout<<s;
 		}
 		cout<<""<<endl;             // this is important as if not u will not get any rectangle instead u will get straight line
