@@ -10,11 +10,10 @@ int main(){
 	int height, base;
 	cout<<"enter height length: ";
 	cin>>height;
-	cout<<"enter base length: ";
-	cin>>base;
+	
 	cout<<"your symbol genrator";
 	cin>>s;
-	char b;
+	
 	for(int a=1;a<=height;a++){
 		for(int i=1;i<=a;i++){
 			cout<<s;
