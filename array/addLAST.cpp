@@ -5,7 +5,7 @@ using namespace std;
 class arrOPP{
 	public:
 		void addEelemnt(string arr[],int size,string f){
-			arr[size-1]=f;
+			arr[size-1]=f;                               //this will add element in the last place of the array
 	
 		}
 };
@@ -15,7 +15,7 @@ class arrOPP{
 
 
 int main(){
-	string a[4]={"max","app","jhon"};
+	string a[4]={"max","app","jhon"};          //remmeber to create an array with greater size to abel to add elemnets into it as array is satitic
 	string miss;
 	cout<<"add the missing person name: ";
 	cin>>miss;
