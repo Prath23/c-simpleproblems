@@ -5,9 +5,9 @@ using namespace std;
 int main(){
 	//create a rectangel from symbols taking parameters from users
 	char s;
-	cout<<"WELCOME TO RECTANGLE CREATOR";
+	cout<<"        *******WELCOME TO RECTANGLE CREATOR********    ";
 	cout<<""<<endl;
-	cout<<"enter the symobl with which you want to create the rectangel: ";
+	cout<<"Enter the symbol with which you want to create the rectangel: ";
 	cin>>s;
 	int h,w;
 	cout<<"Enter the height(whole number): ";
