@@ -4,14 +4,14 @@ using namespace std;
 int main(){
 	//number is even_odd;
 	
-	cout<<"enter your desired number: "<<endl;
+	cout<<"Enter your Desired Number: "<<endl;
 	int a;
 	cin>>a;
 	if(a%2==0){
-		cout<<"number is even"<<endl;
+		cout<<"Number is Even"<<endl;
 	}
 	else{
-		cout<<"number is an odd";
+		cout<<"Number is Odd";
 	}
 	
 	/* this is from while loop so u can do this infinte times without the program being terminated
