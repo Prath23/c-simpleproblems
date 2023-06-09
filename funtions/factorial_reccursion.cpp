@@ -1,22 +1,22 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-#include <iomanip>
-#include <string>
+#include<iomanip>
+#include<string>
 
 int factorial(int num){
 	int fac=1;
-	if(num==1){
+	if(num == 1){
 		return num;
 	}
-	return num*factorial(num-1);
+	return num * factorial(num-1);
 }
 
 int main(){
 	//recussion method for factorail;
 	int a;
-	cout<<"whatnumber factorial doyou want: ";
+	cout<<"Enter Number Factorial You Want: ";
     cin>>a;
-    cout<<"factorail is: "<<factorial(a);
+    cout<<"Factorial: "<<factorial(a);
 	system("pause>0");
     return 0;
 }
