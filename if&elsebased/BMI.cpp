@@ -13,13 +13,13 @@ int main(){
     cin>>h;
     float bmi=w/(h*h);
     if(bmi<18.5){
-    	cout<<"you are under weight";
+    	cout<<"YOU ARE UNDER WEIGHT";
 	}
     	else if(bmi>=18.5 && bmi<=24.9){
-		cout<<"healty but dont slack off";           //this can be also simplified up to you and mind the indentation
+		cout<<"HEALTHY BUT DONT SLACK OFF";           //this can be also simplified up to you and mind the indentation
 	}
 	else{
-		cout<<"bro u overweight get ur act together"<<endl;
+		cout<<"BRO YOU ARE OVERWEIGHT GET YOUR ACT TOGETHER"<<endl;
 	}
     cout<<"note not applicabel to growing children";
     system("pause>0");
