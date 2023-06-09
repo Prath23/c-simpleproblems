@@ -4,12 +4,12 @@ using namespace std;
 int main(){
 	//create a visual multipicaltion tabel sheet:
 	
-	cout<<"              ********WELCOME TO TABEL GENERATOR********    "<<endl;
+	cout<<"              ********WELCOME TO TABEL GENERATOR********       "<<endl;
 	cout<<""<<endl;
-	int number;
+	int n;
 	cout<<"enter number upto which the multiplication sheet need to be form: ";
-	cin>>number;
-	for(int i=1;i<=number;i++){
+	cin>>n;
+	for(int i=1;i<=n;i++){
 		cout<<""<<endl;
 		for(int a=1;a<=10;a++){
 			
