@@ -1,6 +1,6 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-#include <string>
+#include<string>
 int main(){
 	/*//ACSII ENCRIPTOR
 	char c1,c2,c3,c4,c5;
@@ -13,9 +13,9 @@ int main(){
     int b=0;
     while(b<3){
     	int a;
-    	cout<<"enter a integr"<<endl;
+    	cout<<"Enter A Integer"<<endl;
     	cin>>a;
-    	cout<<"your acsii is  "<<char(a)<<endl;
+    	cout<<"Your ACSII is "<<char(a)<<endl;
     	b=b+1;
 	}
     
