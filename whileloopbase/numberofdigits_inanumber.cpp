@@ -9,9 +9,7 @@ int main(){
 	int b=0;
 	while(a>0){
 		a=a/10;
-		++b;
-		
-	}
+		++b;}
 	cout<<"no of digits are: "<<b;
     system("pause>0");
     return 0;
