@@ -14,9 +14,9 @@ int factorial(int num){
 int main(){
 	//recussion method for factorail;
 	int a;
-	cout<<"whatnumber factorial doyou want: ";
+	cout<<"What Number's Factorial do you Want: ";
     cin>>a;
-    cout<<"factorail is: "<<factorial(a);
+    cout<<"Factorial is: "<<factorial(a);
 	system("pause>0");
     return 0;
 }
