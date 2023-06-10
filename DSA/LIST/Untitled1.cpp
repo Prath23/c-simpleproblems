@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 int main(){
 	list <int> a;
 	a.push_front(2);
@@ -19,8 +18,7 @@ int main(){
 	for(auto i:a){
 	    if(i==5){
 	       i=10; 
-	    }
-		
+	    }	
 	}
 	 cout<<endl;
 	for(auto i: a){
